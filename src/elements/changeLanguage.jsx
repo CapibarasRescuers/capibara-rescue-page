@@ -6,7 +6,12 @@ import { useTranslation } from "react-i18next";
 
 const GenerateLanguage = ({ language, icon, onClick }) => {
   return (
-    <Button type="default" style={{ width: "250px" }} onClick={onClick}>
+    <Button
+      ghost={true}
+      type="default"
+      style={{ flex: 1, width: 150 }}
+      onClick={onClick}
+    >
       <div
         style={{
           display: "flex",
@@ -14,7 +19,7 @@ const GenerateLanguage = ({ language, icon, onClick }) => {
           justifyContent: "space-evenly",
         }}
       >
-        <img src={icon} height={18} />
+        <img src={icon} height={20} alt={language} />
         <span>{language}</span>
       </div>
     </Button>
