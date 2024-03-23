@@ -2,5 +2,9 @@
 
 NodeJS v20.11.1 (latest)
 
-npm install --save
-npm run dev
+## Installation
+
+```bash
+  npm install --save
+  npm run dev
+```
