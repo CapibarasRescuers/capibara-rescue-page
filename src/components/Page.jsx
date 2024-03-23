@@ -10,7 +10,7 @@ function CapibaraMain() {
   const { t } = useTranslation(["welcome"]);
 
   return (
-    <Space size={"large"} direction="vertical">
+    <Space style={{ padding: 25 }} size={"large"} direction="vertical">
       <Row>
         <Col
           lg={{ span: 8, offset: 8 }}
