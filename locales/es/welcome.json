@@ -13,5 +13,7 @@
   "countDown.minutes": "Minutos",
   "countDown.seconds": "Segundos",
 
-  "contractAddress": "Contract Address: {{id}}"
+  "contractAddress": "Contract Address: {{id}}",
+
+  "copyright": "Todos los derechos reservados!"
 }
