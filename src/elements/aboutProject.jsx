@@ -1,8 +1,8 @@
-import { Typography } from "antd";
 import React from "react";
+import { Typography } from "antd";
 import { useTranslation } from "react-i18next";
-import capibaraLogo from "../assets/capibara_ok.png";
 import { contractAddress } from "../config/contractAddress";
+import capibaraLogo from "../assets/capibara_ok.png";
 
 export default function AboutProject() {
   const { t } = useTranslation(["welcome"]);
