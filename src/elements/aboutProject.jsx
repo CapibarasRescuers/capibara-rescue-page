@@ -5,7 +5,7 @@ import { contractAddress } from "../config/contractAddress";
 import capibaraLogo from "../assets/capibara_ok.png";
 
 export default function AboutProject() {
-  const { t } = useTranslation(["welcome"]);
+  const { t } = useTranslation(["translation"]);
 
   return (
     <div>

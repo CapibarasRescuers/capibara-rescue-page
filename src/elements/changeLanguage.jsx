@@ -27,7 +27,7 @@ const GenerateLanguage = ({ language, icon, onClick }) => {
 };
 
 export default function ChangeLanguage() {
-  const { t, i18n } = useTranslation(["welcome"]);
+  const { t, i18n } = useTranslation(["translation"]);
 
   const change = (locale) => () => {
     i18n.changeLanguage(locale);

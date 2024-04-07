@@ -17,6 +17,7 @@ const ItemImage = ({ image, index }) => {
     <Col ref={ref} key={index} xs={8} sm={8} md={6} lg={6}>
       {inView ? (
         <Image
+          key={index}
           height={"95%"}
           width={"100%"}
           src={getImageUrl(image)}
@@ -41,7 +42,7 @@ const Gallery = () => {
   return (
     <Row gutter={[8, 8]}>
       {images.map((image, index) => {
-        return <ItemImage image={image} index={index} />;
+        return <ItemImage key={index} image={image} index={index} />;
       })}
     </Row>
   );

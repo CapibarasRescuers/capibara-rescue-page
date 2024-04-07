@@ -8,7 +8,7 @@ import Discord from "../assets/socialMediaIcons/discord.png";
 import Github from "../assets/socialMediaIcons/github.png";
 
 export default function SocialMedia() {
-  const { t } = useTranslation(["welcome"]);
+  const { t } = useTranslation(["translation"]);
 
   const FloatButtonImg = ({ icon, toolTip }) => (
     <FloatButton

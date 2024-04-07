@@ -3,7 +3,7 @@ import { Col, Row, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 
 export default function CountdownTimer() {
-  const { t } = useTranslation(["welcome"]);
+  const { t } = useTranslation(["translation"]);
   const deadline = new Date("2024-04-15T12:00:00");
 
   const calculateTimeLeft = () => {

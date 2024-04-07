@@ -8,7 +8,7 @@ import CountdownTimer from "../elements/countdownTimer";
 import Gallery from "../elements/gallery";
 
 function CapibaraMain() {
-  const { t } = useTranslation(["welcome"]);
+  const { t } = useTranslation(["translation"]);
 
   return (
     <div>
