@@ -18,7 +18,9 @@ export default function AboutProject() {
           {t("contractAddress", { id: contractAddress })}
         </Typography.Text>
       </div>
-      <Typography.Title level={4}>{t("aboutProject.body")}</Typography.Title>
+      <Typography.Title style={{ margin: "20px 10px" }} level={4}>
+        {t("aboutProject.body")}
+      </Typography.Title>
     </div>
   );
 }
